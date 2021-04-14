@@ -13,12 +13,12 @@ public class Task01 {
 
                 }
                 if (isPrime){
-                    count = count++;
+                    count++;
                 }
                 
             }
         }
-        System.out.println(count);
+        return count;
     }
 
 }
