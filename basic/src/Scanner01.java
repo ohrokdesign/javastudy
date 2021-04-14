@@ -14,5 +14,7 @@ public class Scanner01 {
         Math = sc.nextInt();
 
         System.out.println(name+" : "+Math);
+
+        sc.close();
     }
 }
