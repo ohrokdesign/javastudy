@@ -4,7 +4,6 @@
 
 public class Task01 {
     public static void main(String[] args) {
-        int count = 0;
         for (int n = 2; n <= 100; n++) {
             boolean isPrime = true;
             for (int i = 2; i * i <= n && isPrime; i++) {
@@ -13,12 +12,10 @@ public class Task01 {
 
                 }
                 if (isPrime){
-                    count++;
                 }
                 
             }
         }
-        return count;
     }
 
 }
