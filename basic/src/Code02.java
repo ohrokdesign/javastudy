@@ -18,5 +18,6 @@ public class Code02 {
             System.out.println("Wrong!");
         }
 
+        kb.close();
     }
 }
