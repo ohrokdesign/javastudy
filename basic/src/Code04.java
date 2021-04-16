@@ -9,7 +9,7 @@ public class Code04 {
         Scanner kb = new Scanner(System.in);
         System.out.print("이름 나이 성별: ");
         
-        name = kb.next();
+        name = kb.nextLine(); //nextLine 시에는 다음 줄에 입력을 해야만 함
         age = kb.nextInt();
         gender = kb.next();
 
