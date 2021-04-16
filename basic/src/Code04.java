@@ -7,15 +7,20 @@ public class Code04 {
         String gender;
 
         Scanner kb = new Scanner(System.in);
-        System.out.print("male 나이 성별: ");
+        System.out.print("이름 나이 성별: ");
         
         name = kb.next();
         age = kb.nextInt();
         gender = kb.next();
 
-        if(name.equals("male")){
-            System.out.println("당신은 남성");
+        if(gender.equals("male")){
+            System.out.println((name+"님,")+ (age + "세 남성"));
+        } else if(gender.equals("female")){
+            System.out.println(name+"님,"+ age + "세 여성");
+        } else {
+            System.out.println("o-ho interesting");
         }
 
+        kb.close();
     }
 }
