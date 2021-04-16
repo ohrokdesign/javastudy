@@ -18,7 +18,7 @@ public class Code04 {
         } else if(gender.equals("female")){
             System.out.println(name+"님,"+ age + "세 여성");
         } else {
-            System.out.println("o-ho interesting");
+            System.out.println("ho interesting");
         }
 
         kb.close();
