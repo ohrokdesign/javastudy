@@ -2,9 +2,11 @@
 
 public class Code05 {
     public static void main(String[] args) {
-        int []grades;
+        // int []grades;
         
-        grades = new int[5];
+        // grades = new int[5];
+
+        int []grades = new int[5];
 
         grades[0] = 12;
         grades[1] = 35;
