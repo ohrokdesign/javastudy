@@ -19,14 +19,14 @@ public class Task03 {
 
         int evenSum = 0;
         int oddSum = 0;
-        for(int i = 1; i<n; i=i+2){
+        for(int i = 0; i<n; i=i+2){
             evenSum+=data[i];
         }
 
-        for(int i = 0; i<n; i=i+2){
+        for(int i = 1; i<n; i=i+2){
             oddSum+=data[i];
         }
-
+        System.out.println(evenSum);
         System.out.println("The result is"+(evenSum - oddSum));
     }
 }
