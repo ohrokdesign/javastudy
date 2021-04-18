@@ -4,18 +4,25 @@
 
 public class Task01 {
     public static void main(String[] args) {
-        for (int n = 2; n <= 100; n++) {
+        // int x = 0;
+        for (int n = 2; n < 100; n++) {
             boolean isPrime = true;
+
             for (int i = 2; i * i <= n && isPrime; i++) {
-                if (n%i ==0){
+                if (n % i == 0) {
                     isPrime = false;
 
                 }
-                if (isPrime){
+                if (isPrime) {
+                    System.out.println(n);
                 }
-                
+
             }
         }
+        // System.out.println("소수의 개수는"+x);
     }
 
 }
+
+
+// 하나하나 출력을 해보니까 특정 소수가 불규칙하게 몇번 씩 출력되는 것을 확인 할 수 있었음.
