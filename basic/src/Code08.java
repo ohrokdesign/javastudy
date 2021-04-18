@@ -25,7 +25,7 @@ public class Code08 {
             }
         }
 
-        System.out.println("sum is"+ sum);
+        System.out.print("sum is"+ sum);
         System.out.println("Max data is" + max);
     }
 }
