@@ -5,15 +5,23 @@
 
 public class Task02 {
     public static void main(String[] args) {
-        int []sosu = new int[x];
-        for (int n = 2; n <= 100000; n++) {
+        int count=0,total=0;
+        for (int n = 2; n <= 100; n++) {
             boolean isPrime = true;
             for (int i = 2; i * i <= n && isPrime; i++)
-                if (n % i == 0)
+                if (n % i == 0){
                     isPrime = false;
+                }
 
-                if (isPrime)
-                    
+                if (isPrime){
+                    count++;
+                    total = total + n;
+                    System.out.println(n);
+                    if (count>=5)
+                        break;
+                }
+                //50개를 어떻게 셀 것인가 count/total 
         }
+        System.out.println("소수의 합은" + total);
     }
 }
