@@ -24,7 +24,6 @@ public class Task05 {
             }
         }
 
-        System.out.println("Max data is" + max);
-        System.out.println("Min data is" + min);
+        System.out.println("Max-Min is " + (max-min));
     }
 }
