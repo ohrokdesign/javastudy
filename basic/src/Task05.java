@@ -7,11 +7,24 @@ public class Task05 {
         int n = kb.nextInt();
         int []data = new int[n];
 
-        for (int i = 0; i < arrayS; i++) {
+        for (int i = 0; i < n; i++) {
             data[i] = kb.nextInt();
         }
         kb.close();
 
-        int sum=0
+        int max = data[0];
+        int min = data[0];
+
+        for(int i=0; i<n; i++){
+            if (max<data[i]){
+                max=data[i];
+            }
+            if (min>data[i]){
+                max=data[i];
+            }
+        }
+
+        System.out.println("Max data is" + max);
+        System.out.println("Min data is" + min);
     }
 }
