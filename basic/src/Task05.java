@@ -1,3 +1,5 @@
+//특정 배열 입력하여 최대값에서 최소값 빼기
+
 import java.util.Scanner;
 
 public class Task05 {
